@@ -9,6 +9,6 @@ dependencies:
   - python=3.9.16                   # https://pyreadiness.org/3.9
   - pip=22.1.2                      # https://pip.pypa.io/en/stable/news
   - pip:
-    - robocorp==0.9.0               # https://pypi.org/project/robocorp
+    - robocorp==0.10.0               # https://pypi.org/project/robocorp
     - atlassian-python-api==3.41.0  # https://pypi.org/project/atlassian-python-api/#history
     - beautifulsoup4==4.12.2        # https://pypi.org/project/beautifulsoup4/#history
