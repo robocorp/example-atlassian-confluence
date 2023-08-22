@@ -4,7 +4,6 @@ from robocorp import vault, workitems
 from atlassian import Confluence
 
 from bs4 import BeautifulSoup
-import json
 
 def tables_to_json(html):
     '''Uses BeautifulSoup4 to extract all tables from a given html block.'''
@@ -24,7 +23,6 @@ def tables_to_json(html):
         table_data.append({"headers": headers, "rows": rows})
 
     # Convert to JSON format
-    #json_data = json.dumps(table_data, indent=4)
     return table_data
 
 @task
